@@ -8,7 +8,10 @@ public class TestHelloWorld {
 
 	@Test
 	public void test() {
-		fail("Not yet implemented!!");
+		HelloWorld instance = new HelloWorld();
+		instance.testFunction();
+		assert(true);
+//		fail("Not yet implemented!!");
 	}
 
 }
